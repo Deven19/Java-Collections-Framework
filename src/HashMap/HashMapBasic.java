@@ -6,6 +6,12 @@ import java.util.Iterator;
 import java.util.Map.*;
 
 public class HashMapBasic {
+
+    /*
+    * Hashing,
+    * same index or collision - likedlist, after threshhold(8) it's convert into Balanced Tree
+    * null store at 0 position
+    * */
     public static void main(String[] args){
         HashMap<String,String> hmap = new HashMap<String, String>();
         hmap.put("a", "A");
