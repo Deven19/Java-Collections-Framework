@@ -15,5 +15,6 @@ public class HashMapSync {
         syncMap.put("Test","test");
 
         System.out.println(syncMap.get("Test"));
+
     }
 }
